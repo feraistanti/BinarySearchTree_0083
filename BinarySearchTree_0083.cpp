@@ -130,6 +130,11 @@ int main()
 			cin >> word;
 			x.insert(word);
 			break;
-		}   
+		}  
+    	case '2':
+		{
+			x.inorder(x.ROOT);  // menambahkan case 2
+			break;
+		} 
     }
 };
