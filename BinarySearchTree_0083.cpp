@@ -141,5 +141,10 @@ int main()
 			x.preorder(x.ROOT);  // menambahkan case 3
 			break;
 		} 
+    	case '4':
+		{
+			x.postorder(x.ROOT); // menambahkan case 4
+			break;
+		}
     }
 };
