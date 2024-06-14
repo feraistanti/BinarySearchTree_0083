@@ -135,6 +135,11 @@ int main()
 		{
 			x.inorder(x.ROOT);  // menambahkan case 2
 			break;
+		}
+    	case '3':
+		{
+			x.preorder(x.ROOT);  // menambahkan case 3
+			break;
 		} 
     }
 };
