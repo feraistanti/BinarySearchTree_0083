@@ -146,5 +146,13 @@ int main()
 			x.postorder(x.ROOT); // menambahkan case 4
 			break;
 		}
+		case '5':
+			return 0; // menambahkan case 5 dan selesai embuat project
+		default:
+		{
+			cout << "Invalid option" << endl;
+			break;
+		}
+		}
     }
 };
