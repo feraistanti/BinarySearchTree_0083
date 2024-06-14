@@ -120,5 +120,16 @@ int main()
 		char ch;
 		cin >> ch;
 		cout << endl;  // memasukkkan 
+
+		switch (ch)
+		{
+		case '1':
+		{
+			cout << "Enter a word: ";  // menambahkan case 1
+			string word;
+			cin >> word;
+			x.insert(word);
+			break;
+		}   
     }
 };
